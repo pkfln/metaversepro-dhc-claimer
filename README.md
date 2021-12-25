@@ -38,7 +38,7 @@ A Dockerfile is available for this project. You can build the image with `docker
 version: '3.9'
 services:
   metaversepro-dhc-claimer:
-    build: github.com/pkfln/metaversepro-dhc-claimer
+    build: github.com/pkfln/metaversepro-dhc-claimer#main
     restart: always
     environment:
       - PRIVATE_KEY=<your private key>
